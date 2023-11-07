@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html {
+  box-sizing: border-box;
+  background-color: #181818;
+  color:#a3a3a3;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 7vw;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  color: #f40612;
+  text-shadow: 1px 1px 2px #a3a3a3;
+}
+h2 {
+  font-family: 'Bebas Neue';
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #a3a3a3;
+  font-family: Verdana;
+}
+.poster{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+.checked {
+    color: orange;
+}
+.resegna {
+  font-family: Verdana;
+}
